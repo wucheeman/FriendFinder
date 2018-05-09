@@ -5,6 +5,8 @@ snippets/
 node_modules/
 target/
 getty.jpg
+test/node_modules/
+test/package-lock.json
 
 # Executables
 
