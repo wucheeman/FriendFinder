@@ -1,0 +1,12 @@
+[x] Initial commit
+[x] Requirements-based test cases
+[] Survey questions added in text form
+[] friends.js added with initial set of friends
+[] survey.html roughed in
+[] home.html roughed in
+[] pseudocode for server.js
+[] pseudocode for htmlRoutes.js
+[] pseudocode for apiRoutes.js
+[] modal for most-compatible friend roughed in
+[] compatibility logic built
+[] updates to compatibility logic after test
