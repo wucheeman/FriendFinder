@@ -3,10 +3,9 @@
 [x] Survey questions added in text form
 [x] friends.js added with initial set of friends
 [x] compatibility logic built
-[] survey.html roughed in
+[x] survey.html roughed in
 [] home.html roughed in
 [] pseudocode for server.js
 [] pseudocode for htmlRoutes.js
 [] pseudocode for apiRoutes.js
-[] modal for most-compatible friend roughed in
-[] updates to compatibility logic after test
+[] Update survey.html
