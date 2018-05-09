@@ -61,7 +61,7 @@ Requirements
 
 Bonus
 =====
-Fill in from requirements.
+None
 
 Functionality
 =============
@@ -70,7 +70,7 @@ Functionality
 
 Display
 =======
-[] Page closely resembles demo video
+[] Page closely resembles demo
 
 Installation
 ============
@@ -83,7 +83,7 @@ Cleanup
 [] CSS validates
 [] JS delinted
 
-GitHub Pages
-============
+Heroku
+======
 [] Page performs on load as expected
 [] Page performs after reload as expected
