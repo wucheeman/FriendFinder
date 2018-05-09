@@ -1,4 +1,4 @@
-const friends = [
+var friends = [
   {
     "name":"Procopius",
     "photo":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Meister_von_San_Vitale_in_Ravenna_013.jpg/200px-Meister_von_San_Vitale_in_Ravenna_013.jpg",
