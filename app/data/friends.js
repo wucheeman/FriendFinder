@@ -1,0 +1,165 @@
+const friends = [
+  {
+    "name":"Procopius",
+    "photo":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Meister_von_San_Vitale_in_Ravenna_013.jpg/200px-Meister_von_San_Vitale_in_Ravenna_013.jpg",
+    "scores":[
+        5,
+        1,
+        4,
+        4,
+        5,
+        1,
+        2,
+        5,
+        4,
+        1
+      ]
+  },
+  {
+    "name":"Jane Austen",
+    "photo":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Jane_Austen_coloured_version.jpg/194px-Jane_Austen_coloured_version.jpg",
+    "scores":[
+        5,
+        1,
+        4,
+        4,
+        5,
+        1,
+        2,
+        5,
+        4,
+        1
+      ]
+  },
+  {
+    "name":"Norman Mailer",
+    "photo":"https://periodicoirreverentes.files.wordpress.com/2017/11/mailer-joven.jpg",
+    "scores":[
+        5,
+        1,
+        4,
+        4,
+        5,
+        1,
+        2,
+        5,
+        4,
+        1
+      ]
+  },
+  {
+    "name":"Robert Heinlein",
+    "photo":"https://i.kinja-img.com/gawker-media/image/upload/s--ytAkJh8m--/186743mw290u6png.png",
+    "scores":[
+        5,
+        1,
+        4,
+        4,
+        5,
+        1,
+        2,
+        5,
+        4,
+        1
+      ]
+  },
+  {
+    "name":"Sam Clemens",
+    "photo":"https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Mark_Twain_photo_portrait%2C_Feb_7%2C_1871%2C_cropped_Repair.jpg/382px-Mark_Twain_photo_portrait%2C_Feb_7%2C_1871%2C_cropped_Repair.jpg",
+    "scores":[
+        5,
+        1,
+        4,
+        4,
+        5,
+        1,
+        2,
+        5,
+        4,
+        1
+      ]
+  },
+  {
+    "name":"Leo Tolstoy",
+    "photo":"https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Lev_Nikolayevich_Tolstoy_1856.jpg/346px-Lev_Nikolayevich_Tolstoy_1856.jpg",
+    "scores":[
+        5,
+        1,
+        4,
+        4,
+        5,
+        1,
+        2,
+        5,
+        4,
+        1
+      ]
+  },
+  {
+    "name":"Nick Machiavelli",
+    "photo":"https://upload.wikimedia.org/wikipedia/commons/2/27/Santi_di_Tito_-_Niccolo_Machiavelli%27s_portrait_headcrop.jpg",
+    "scores":[
+        5,
+        1,
+        4,
+        4,
+        5,
+        1,
+        2,
+        5,
+        4,
+        1
+      ]
+  },
+  {
+    "name":"Henry Mencken",
+    "photo":"https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/H-L-Mencken-1928.jpg/166px-H-L-Mencken-1928.jpg",
+    "scores":[
+        5,
+        1,
+        4,
+        4,
+        5,
+        1,
+        2,
+        5,
+        4,
+        1
+      ]
+  },
+  {
+    "name":"Gabriel Marquez",
+    "photo":"https://i1.wp.com/www.marketingdirecto.com/wp-content/uploads/2014/04/gabo.jpg?w=290&ssl=1",
+    "scores":[
+        5,
+        1,
+        4,
+        4,
+        5,
+        1,
+        2,
+        5,
+        4,
+        1
+      ]
+  }
+] // end of friends
+
+/*
+{
+  "name":"Ahmed",
+  "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+  "scores":[
+      5,
+      1,
+      4,
+      4,
+      5,
+      1,
+      2,
+      5,
+      4,
+      1
+    ]
+}
+*/
