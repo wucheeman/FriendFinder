@@ -11,7 +11,53 @@ Make sure you're working in a copy of this for a homework assignment!
 
 Requirements
 ============
-Fill in from requirements
+[] Application has this directory structure:
+    FriendFinder
+    - .gitignore
+    - app
+      - data
+        - friends.js
+      - public
+        - home.html
+        - survey.html
+      - routing
+        - apiRoutes.js
+        - htmlRoutes.js
+    - node_modules
+    - package.json
+    - server.js
+[] Application has survey of 10 questions
+[] Each question has scale of 1 - 5 based on user agreement/disagreement
+[] server.js requires 'express', 'body-parser' and 'path'
+[] 3. `htmlRoutes.js` includes two routes:
+   () GET Route to `/survey` which should display the survey page.
+   () Default, catch-all route that leads to `home.html`
+[] `apiRoutes.js` includes two routes:
+   () GET route with the url `/api/friends`. This displays a JSON of all possible friends.
+   () POST route to `/api/friends`. This handles incoming survey results and provides compatibility logic.
+[] Application data are stored in `app/data/friends.js` as an array of JSON objects.
+[] Each JSON object in friends.js has this format:.
+    {
+      "name":"Ahmed",
+      "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+      "scores":[
+          5,
+          1,
+          4,
+          4,
+          5,
+          1,
+          2,
+          5,
+          4,
+          1
+        ]
+    }
+[] Compatibility logic sums absolute value of differences between user and each candidate friend's score on survey. 
+[] Closest match is declared to be candidate with least total difference
+[] Closest match displays as a modal window, with name and picture of match
+[] Application must prevent submission of survey until all questions are answered.
+
 
 Bonus
 =====
