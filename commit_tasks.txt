@@ -4,8 +4,9 @@
 [x] friends.js added with initial set of friends
 [x] compatibility logic built
 [x] survey.html roughed in
-[] home.html roughed in
+[x] home.html roughed in
 [] pseudocode for server.js
 [] pseudocode for htmlRoutes.js
 [] pseudocode for apiRoutes.js
-[] Update survey.html
+[] Update survey.html styling
+[] Update home.html styling
