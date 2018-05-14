@@ -3,6 +3,9 @@
 // $ node server.js &
 // $ cd /FriendFinder/test
 // $ npm test ui_test.js
+// to stop server at end of test,
+// $ jobs
+// $ kill $<jobspec number>
 
 const Nightmare = require('nightmare')
 const chai = require('chai');

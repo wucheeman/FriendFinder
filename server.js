@@ -19,16 +19,17 @@ app.use(bodyParser.json());
 
 // ROUTES
 // =============================================================================
+require("./app/routing/htmlRoutes")(app);
 
-app.get('/', function (req, res) {
-  res.sendFile(path.resolve(__dirname, './app/public/home.html'));
-  console.log(path.resolve(__dirname, './app/public/index.html'));
-});
+// app.get('/', function (req, res) {
+//   res.sendFile(path.resolve(__dirname, './app/public/home.html'));
+//   console.log(path.resolve(__dirname, './app/public/index.html'));
+// });
 
-app.get('/survey', function (req, res) {
-  res.sendFile(path.resolve(__dirname, './app/public/survey.html'));
-  console.log(path.resolve(__dirname, './app/public/survey.html'));
-});
+// app.get('/survey', function (req, res) {
+//   res.sendFile(path.resolve(__dirname, './app/public/survey.html'));
+//   console.log(path.resolve(__dirname, './app/public/survey.html'));
+// });
 
 // TODO: add other routes
 
