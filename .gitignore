@@ -7,7 +7,7 @@ target/
 getty.jpg
 test/node_modules/
 test/package-lock.json
-test/package.json
+
 
 # Executables
 
