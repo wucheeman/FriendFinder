@@ -23,3 +23,18 @@ describe('Scoring', function() {
     }
   })
 });
+
+describe('friends', function() {
+  it('friends loads without error', function() {
+    assert.exists(friends);
+    assert.isArray(friends);
+  });
+  it('friends is an array', function() {
+    assert.isArray(friends);
+  });
+  it('friends JSON objects can be converted', function() {
+    const firstObject = JSON.parse(friends[0]);
+    assert.isObject(firstObject);
+    assert.propertyVal(firstObject, 'name', 'Procopius');
+  });
+});
