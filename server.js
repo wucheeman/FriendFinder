@@ -25,6 +25,11 @@ app.get('/', function (req, res) {
   console.log(path.resolve(__dirname, './app/public/index.html'));
 });
 
+app.get('/survey', function (req, res) {
+  res.sendFile(path.resolve(__dirname, './app/public/survey.html'));
+  console.log(path.resolve(__dirname, './app/public/survey.html'));
+});
+
 // TODO: add other routes
 
 // LISTENER

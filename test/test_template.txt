@@ -68,6 +68,7 @@ Functionality
 [] Game initializes globals correctly
 [] Game reinitializes globals correctly
 [] All unit tests pass
+[] All UI tests pass
 
 Display
 =======

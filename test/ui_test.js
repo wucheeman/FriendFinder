@@ -1,3 +1,9 @@
+// to test:
+// $ cd FriendFinder
+// $ node server.js &
+// $ cd /FriendFinder/test
+// $ npm test ui_test.js
+
 const Nightmare = require('nightmare')
 const chai = require('chai');
 const assert = chai.assert;
@@ -11,10 +17,20 @@ describe('Load a Page', function() {
     nightmare = new Nightmare()
   })
 
-  describe('/ (Home Page)', () => {
+  describe('Home Page)', () => {
     it('home should load without error', done => {
       // your actual testing urls will likely be `http://localhost:port/path`
       nightmare.goto('http://localhost:8080')
+        .end()
+        .then(function (result) { done() })
+        .catch(done)
+    })
+  })
+
+  describe('Survey)', () => {
+    it('survey should load without error', done => {
+      // your actual testing urls will likely be `http://localhost:port/path`
+      nightmare.goto('http://localhost:8080/survey')
         .end()
         .then(function (result) { done() })
         .catch(done)
