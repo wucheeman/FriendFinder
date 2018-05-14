@@ -29,7 +29,7 @@ Requirements
 [] Application has survey of 10 questions
 [] Each question has scale of 1 - 5 based on user agreement/disagreement
 [] server.js requires 'express', 'body-parser' and 'path'
-[] 3. `htmlRoutes.js` includes two routes:
+[] `htmlRoutes.js` includes two routes:
    () GET Route to `/survey` which should display the survey page.
    () Default, catch-all route that leads to `home.html`
 [] `apiRoutes.js` includes two routes:
@@ -67,6 +67,7 @@ Functionality
 =============
 [] Game initializes globals correctly
 [] Game reinitializes globals correctly
+[] All unit tests pass
 
 Display
 =======

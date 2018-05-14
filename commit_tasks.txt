@@ -5,6 +5,8 @@
 [x] compatibility logic built
 [x] survey.html roughed in
 [x] home.html roughed in
+[] friends.js updated to array of JSON objects
+[] friends.js updated so each entry has different compatibility scores 
 [] pseudocode for server.js
 [] pseudocode for htmlRoutes.js
 [] pseudocode for apiRoutes.js
