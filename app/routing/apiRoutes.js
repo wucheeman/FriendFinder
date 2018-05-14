@@ -6,7 +6,7 @@ const path = require("path");
 
 // LOAD DATA
 //==============================================================================
-var friends = require("./../data/friends");
+const friends = require("./../data/friends");
 
 // ROUTING
 // =============================================================================
@@ -25,6 +25,7 @@ module.exports = function(app) {
     } = req.body;
     // TODO: process request and act accordingly
     console.log(req.body);
+    
     res.send(true);
   }); // end of app.post
 }; // end of module.exports
