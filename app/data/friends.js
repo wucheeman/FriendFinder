@@ -1,97 +1,97 @@
 const friends = [
   `{
-    "name":"Procopius",
-    "photo":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Meister_von_San_Vitale_in_Ravenna_013.jpg/200px-Meister_von_San_Vitale_in_Ravenna_013.jpg",
+    "name":"Karen Dinesen Blixen",
+    "photo":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Karen_Blixen_1913.jpg/302px-Karen_Blixen_1913.jpg",
     "scores":[
-        5,
         1,
-        4,
-        4,
-        5,
         1,
+        3,
+        5,
         2,
         5,
         4,
-        1
+        4,
+        1,
+        5
       ]
   }`,
   `{
   "name":"Jane Austen",
   "photo":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Jane_Austen_coloured_version.jpg/194px-Jane_Austen_coloured_version.jpg",
   "scores":[
+      3,
+      3,
+      3,
       5,
-      1,
-      4,
-      4,
-      5,
-      1,
+      3,
       2,
+      1,
       5,
-      4,
-      1
+      3,
+      2
     ]
 }`,
   `{
-  "name":"Norman Mailer",
-  "photo":"https://periodicoirreverentes.files.wordpress.com/2017/11/mailer-joven.jpg",
+  "name":"Amantine Lucile Aurore Dupin",
+  "photo":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/George_Sand.jpg/499px-George_Sand.jpg",
   "scores":[
       5,
-      1,
-      4,
-      4,
       5,
-      1,
-      2,
       5,
       4,
-      1
+      5,
+      3,
+      5,
+      5,
+      4,
+      5
     ]
 }`,
   `{
-  "name":"Robert Heinlein",
-  "photo":"https://i.kinja-img.com/gawker-media/image/upload/s--ytAkJh8m--/186743mw290u6png.png",
+  "name":"Murasaki Shikibu",
+  "photo":"https://upload.wikimedia.org/wikipedia/commons/f/fa/Tosa_Mitsuoki%E2%80%94Portrait_of_Murasaki_Shikibu.jpg",
   "scores":[
-      5,
-      1,
       4,
-      4,
-      5,
+      3,
       1,
       2,
-      5,
+      1,
       4,
-      1
+      5,
+      1,
+      5,
+      3
     ]
 }`,
   `{
   "name":"Sam Clemens",
   "photo":"https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Mark_Twain_photo_portrait%2C_Feb_7%2C_1871%2C_cropped_Repair.jpg/382px-Mark_Twain_photo_portrait%2C_Feb_7%2C_1871%2C_cropped_Repair.jpg",
   "scores":[
-      5,
+      2,
+      2,
       1,
-      4,
-      4,
+      5,
       5,
       1,
       2,
-      5,
+      2,
       4,
-      1
+      5
     ]
 }`,
   `{
   "name":"Leo Tolstoy",
   "photo":"https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Lev_Nikolayevich_Tolstoy_1856.jpg/346px-Lev_Nikolayevich_Tolstoy_1856.jpg",
   "scores":[
-      5,
-      1,
       4,
-      4,
-      5,
       1,
+      5,
       2,
       5,
-      4,
+      5,
+      2,
+      2,
+      3,
       1
     ]
 }`,
@@ -99,16 +99,16 @@ const friends = [
   "name":"Nick Machiavelli",
   "photo":"https://upload.wikimedia.org/wikipedia/commons/2/27/Santi_di_Tito_-_Niccolo_Machiavelli%27s_portrait_headcrop.jpg",
   "scores":[
-      5,
       1,
-      4,
-      4,
-      5,
-      1,
+      3,
       2,
-      5,
       4,
-      1
+      3,
+      1,
+      3,
+      2,
+      4,
+      3
     ]
 }`,
   `{
@@ -117,30 +117,30 @@ const friends = [
   "scores":[
       5,
       1,
-      4,
-      4,
-      5,
-      1,
       2,
+      4,
+      3,
+      5,
       5,
       4,
-      1
+      3,
+      2
     ]
 }`,
   `{
   "name":"Gabriel Marquez",
   "photo":"https://i1.wp.com/www.marketingdirecto.com/wp-content/uploads/2014/04/gabo.jpg?w=290&ssl=1",
   "scores":[
-      5,
       1,
-      4,
-      4,
-      5,
       1,
+      1,
+      3,
       2,
       5,
+      1,
       4,
-      1
+      1,
+      2
     ]
 }`
 ]
