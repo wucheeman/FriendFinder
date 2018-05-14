@@ -145,7 +145,7 @@ const friends = [
 }`
 ]
 // end of friends
-module.exports(friends);
+module.exports = friends;
 
 /*
 
