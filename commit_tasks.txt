@@ -16,7 +16,7 @@
 [x] apiRoutes.js updated to provide compatibility logic.
    () logic sums absolute value of differences between user and each candidate friend's score 
    () logic declares closest match to be candidate with least total difference
-[] App displays closest match as a modal window, with name and picture of match
-[] App prevents submission of survey until all questions are answered.
+[x] App displays closest match as a modal window, with name and picture of match
+[x] App prevents submission of survey until all questions are answered.
 [] Update survey.html styling
 [] Update home.html styling

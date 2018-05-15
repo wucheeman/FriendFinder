@@ -42,7 +42,7 @@ module.exports = function(app) {
     console.log(bestMatch);
 
     
-    res.send(true);
+    res.send(bestMatch);
   }); // end of app.post
 }; // end of module.exports
 
