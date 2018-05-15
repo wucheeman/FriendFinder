@@ -10,8 +10,8 @@
 [x] initial code for server.js and with route to home.html
 [x] added route to survey.html to server.js + unit test
 [x] routes to survey and (default) to home move to htmlRoutes.js 
-[] apiRoutes.js updated with GET route to /api/friends`. This displays a JSON of all possible friends.
-[] apiRoutes.js updated with POST route to `/api/friends`.
+[x] apiRoutes.js updated with GET route to /api/friends`. This displays a JSON of all possible friends.
+[x] apiRoutes.js updated with POST route to `/api/friends`.
 [] apiRoutes.js updated to handle incoming survey results
 [] apiRoutes.js updated to provide compatibility logic.
    () logic sums absolute value of differences between user and each candidate friend's score 
