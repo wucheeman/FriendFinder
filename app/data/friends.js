@@ -1,6 +1,6 @@
 const friends = [
   `{
-    "name":"Karen Dinesen Blixen",
+    "name":"Karen Blixen (Isak Dinesen",
     "photo":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Karen_Blixen_1913.jpg/302px-Karen_Blixen_1913.jpg",
     "scores":[
         1,
@@ -32,7 +32,7 @@ const friends = [
     ]
 }`,
   `{
-  "name":"Amantine Lucile Aurore Dupin",
+  "name":"Amantine Lucile Aurore Dupin (George Sand)",
   "photo":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/George_Sand.jpg/499px-George_Sand.jpg",
   "scores":[
       5,
@@ -64,7 +64,7 @@ const friends = [
     ]
 }`,
   `{
-  "name":"Sam Clemens",
+  "name":"Sam Clemens (Mark Twain)",
   "photo":"https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Mark_Twain_photo_portrait%2C_Feb_7%2C_1871%2C_cropped_Repair.jpg/382px-Mark_Twain_photo_portrait%2C_Feb_7%2C_1871%2C_cropped_Repair.jpg",
   "scores":[
       2,
@@ -96,7 +96,7 @@ const friends = [
     ]
 }`,
   `{
-  "name":"Nick Machiavelli",
+  "name":"Niccolò Machiavelli",
   "photo":"https://upload.wikimedia.org/wikipedia/commons/2/27/Santi_di_Tito_-_Niccolo_Machiavelli%27s_portrait_headcrop.jpg",
   "scores":[
       1,
@@ -112,7 +112,7 @@ const friends = [
     ]
 }`,
   `{
-  "name":"Henry Mencken",
+  "name":"H. L. Mencken",
   "photo":"https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/H-L-Mencken-1928.jpg/166px-H-L-Mencken-1928.jpg",
   "scores":[
       5,
@@ -128,7 +128,7 @@ const friends = [
     ]
 }`,
   `{
-  "name":"Gabriel Marquez",
+  "name":"Gabriel Garcia Marquez",
   "photo":"https://i1.wp.com/www.marketingdirecto.com/wp-content/uploads/2014/04/gabo.jpg?w=290&ssl=1",
   "scores":[
       1,
@@ -146,28 +146,3 @@ const friends = [
 ]
 // end of friends
 module.exports = friends;
-
-/*
-
-
-] 
-
-
-{
-  "name":"Ahmed",
-  "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
-  "scores":[
-      5,
-      1,
-      4,
-      4,
-      5,
-      1,
-      2,
-      5,
-      4,
-      1
-    ]
-}
-
-*/

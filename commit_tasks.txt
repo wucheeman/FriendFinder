@@ -19,4 +19,5 @@
 [x] App displays closest match as a modal window, with name and picture of match
 [x] App prevents submission of survey until all questions are answered.
 [] Update survey.html styling
-[] Update home.html styling
+[-] Update home.html styling
+[] Update links on both pages to api and github
