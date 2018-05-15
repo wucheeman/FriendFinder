@@ -24,7 +24,7 @@ module.exports = function(app) {
       scores,
     } = req.body;
     // TODO: process request and act accordingly
-    // console.log(req.body.scores);
+    console.log(req.body);
     const newScores = req.body.scores;
     //console.log(typeof newScores);
     //console.log(typeof friends[0]);

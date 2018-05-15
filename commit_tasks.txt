@@ -12,8 +12,8 @@
 [x] routes to survey and (default) to home move to htmlRoutes.js 
 [x] apiRoutes.js updated with GET route to /api/friends`. This displays a JSON of all possible friends.
 [x] apiRoutes.js updated with POST route to `/api/friends`.
-[] apiRoutes.js updated to handle incoming survey results
-[] apiRoutes.js updated to provide compatibility logic.
+[x] apiRoutes.js updated to handle incoming survey results
+[x] apiRoutes.js updated to provide compatibility logic.
    () logic sums absolute value of differences between user and each candidate friend's score 
    () logic declares closest match to be candidate with least total difference
 [] App displays closest match as a modal window, with name and picture of match
