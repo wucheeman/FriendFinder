@@ -7,8 +7,6 @@
 // $ jobs
 // $ kill %<jobspec number>
 
-// These tests are throwing an error because they are not in the project root directory!
-
 const Nightmare = require('nightmare')
 const chai = require('chai');
 const assert = chai.assert;
