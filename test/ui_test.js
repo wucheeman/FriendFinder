@@ -5,7 +5,7 @@
 // $ npm test ui_test.js
 // to stop server at end of test,
 // $ jobs
-// $ kill $<jobspec number>
+// $ kill %<jobspec number>
 
 // These tests are throwing an error because they are not in the project root directory!
 
