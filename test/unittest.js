@@ -33,8 +33,8 @@ describe('friends', function() {
     assert.isArray(friends);
   });
   it('friends JSON objects can be converted', function() {
-    const firstObject = JSON.parse(friends[0]);
+    const firstObject = JSON.parse(friends[1]);
     assert.isObject(firstObject);
-    assert.propertyVal(firstObject, 'name', 'Procopius');
+    assert.propertyVal(firstObject, 'name', 'Jane Austen');
   });
 });
