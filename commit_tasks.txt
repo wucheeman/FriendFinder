@@ -20,7 +20,7 @@
 [x] App prevents submission of survey until all questions are answered.
 [x] Update survey.html styling
 [x] Update home.html styling
-[-] Update links on both pages to github
+[x] Update links on both pages to github
 [x] UI test and bug fix(if any)
 [] Test results when run on localhost
 [] Bug fix and cleanup
