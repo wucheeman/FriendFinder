@@ -21,7 +21,7 @@
 [x] Update survey.html styling
 [x] Update home.html styling
 [-] Update links on both pages to github
-[] UI test and bug fix(if any)
+[x] UI test and bug fix(if any)
 [] Test results when run on localhost
 [] Bug fix and cleanup
 [] Test results when run on Heroku
