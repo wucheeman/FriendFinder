@@ -19,30 +19,36 @@
 
   <div class="container">
 
-    <div class="jumbotron">
-      <!-- Photo by Michael D Beckwith on Unsplash -->
-      <h1><img src="/michael-d-beckwith-577543-unsplash_400x267.jpg" alt="Library">Find an Author</h1>
+    <div class="jumbotron bg-info">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6">
+            <!-- Photo by Michael D Beckwith on Unsplash -->
+            <!-- TODO place a '/' at start of URL when ready to serve from express -->
+            <img src="michael-d-beckwith-577543-unsplash_400x267.jpg" alt="Library">
+          </div>
+          <div class="col-sm-6 text-center">
+            <h1 class="display-3"><strong>Find <br> an <br> Author</strong></h1>
+          </div>
+        </div> <!-- end of row-->
+      </div> <!-- end of inner container -->
       <hr>
       <p><i>Find an Author</i> is a site for people who are looking for the next great book to read -- one by somebody with interesting ideas and opinions! Maybe you'll find a writer who was the sort of person that you would really have liked to get to know. Take the survey, and we'll suggest an author for you to try out!</h5>
       <br>
 
-      <!-- TODO: replace with correct URL -->
       <div>
         <a href="/survey"><button type="button" class="btn btn-lg btn-primary"><h4><span class="glyphicon glyphicon-list-alt"></span> Go to Survey</h4></button></a>
       </div>
 
-    </div>
+    </div> <!--end of Jumbotron-->
 
-          <!-- TODO: replace with correct URLs -->
+          <!-- TODO: replace with correct URL for Heroku -->
     <footer class="footer">
       <div class="container">
-        <p><a href="https://friend-finder-fsf.herokuapp.com/api/friends">API Friends List</a> | <a href="https://github.com/afhaque/friendfinder">GitHub Repo</a></p>
+        <p><a href="https://friend-finder-fsf.herokuapp.com/api/friends">API Friends List</a> | <a href="https://github.com/wucheeman/FriendFinder">GitHub Repo</a></p>
       </div>
     </footer>
 
-  </div>
-
-
-
+  </div> <!-- end of body-level container -->
 
 </body></html>
