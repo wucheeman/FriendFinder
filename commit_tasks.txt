@@ -22,6 +22,8 @@
 [x] Update home.html styling
 [x] Update links on both pages to github
 [x] UI test and bug fix(if any)
+[x] update survey.html to get correct bootstrap and js libraries
+[] slimmed down picture of Murasaki Shikubu
 [] Test results when run on localhost
 [] Bug fix and cleanup
 [] Test results when run on Heroku
