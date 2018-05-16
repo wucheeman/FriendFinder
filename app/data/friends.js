@@ -1,6 +1,6 @@
 const friends = [
   `{
-    "name":"Karen Blixen (Isak Dinesen",
+    "name":"Karen Blixen (Isak Dinesen)",
     "photo":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Karen_Blixen_1913.jpg/302px-Karen_Blixen_1913.jpg",
     "scores":[
         1,
