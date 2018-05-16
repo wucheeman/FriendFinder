@@ -18,6 +18,11 @@
    () logic declares closest match to be candidate with least total difference
 [x] App displays closest match as a modal window, with name and picture of match
 [x] App prevents submission of survey until all questions are answered.
-[] Update survey.html styling
-[-] Update home.html styling
-[] Update links on both pages to api and github
+[x] Update survey.html styling
+[x] Update home.html styling
+[-] Update links on both pages to github
+[] UI test and bug fix(if any)
+[] Test results when run on localhost
+[] Bug fix and cleanup
+[] Test results when run on Heroku
+[] Bug fix and final clean up
