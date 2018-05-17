@@ -14,7 +14,7 @@ const friends = require("./../data/friends");
 module.exports = function(app) {
   app.get('/api/friends', function (req, res) {
     res.json(friends);
-    console.log('Sending friends data');
+    // console.log('Sending friends data');
   });
 
   app.post('/api/friends', function (req, res) {
@@ -24,7 +24,7 @@ module.exports = function(app) {
       scores,
     } = req.body;
     // TODO: process request and act accordingly
-    console.log(req.body);
+    // console.log(req.body);
     const newScores = req.body.scores;
     //console.log(typeof newScores);
     //console.log(typeof friends[0]);
@@ -39,7 +39,7 @@ module.exports = function(app) {
         bestMatch = friendObj;
       }
     });
-    console.log(bestMatch);
+    // console.log(bestMatch);
 
     
     res.send(bestMatch);

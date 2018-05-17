@@ -27,6 +27,7 @@
 [x] Test results when run on localhost
 [x] Bug fix and cleanup
 [x] Test results when run on Heroku
-[] Bug fix and final clean up
-   () photo size in modal
-   () final cleanup
+[x] Bug fix and final clean up
+   (x) photo size in modal
+   (x) final cleanup
+   (x) link to friends/api in heroku app
