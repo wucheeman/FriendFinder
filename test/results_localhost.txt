@@ -7,8 +7,6 @@ p = passed
 s = skipped
 w = waiting for further work
 
-Make sure you're working in a copy of this for a homework assignment! 
-
 Requirements
 ============
 [p] Application has this directory structure:
