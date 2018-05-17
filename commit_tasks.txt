@@ -26,5 +26,7 @@
 [x] slimmed down picture of Murasaki Shikubu
 [x] Test results when run on localhost
 [x] Bug fix and cleanup
-[] Test results when run on Heroku
+[x] Test results when run on Heroku
 [] Bug fix and final clean up
+   () photo size in modal
+   () final cleanup
