@@ -1,5 +1,9 @@
 aqueous-bastion-22790
 
+app URL
 https://aqueous-bastion-22790.herokuapp.com/
 
+app repo
 https://git.heroku.com/aqueous-bastion-22790.git
+
+ 
