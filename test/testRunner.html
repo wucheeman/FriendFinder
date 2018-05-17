@@ -11,8 +11,11 @@
     <script>mocha.setup('bdd')</script>
 
     <!-- load code you want to test here -->
+    <!-- -->
     <script src='../app/data/friends.js'></script>
-    <script src='../app/routing/apiRoutes.js'></script>
+    <!-- compatibility.js has same functions as apiRoutes
+    TODO (future) do direct of apiRoutes  -->
+    <script src='./compatibility.js'></script>
 
     <!-- load your test files here -->
     <script src='unittest.js'></script>
